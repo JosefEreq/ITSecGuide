@@ -52,7 +52,7 @@ Consider the following when choosing a Internet, VPN or Email provider;
 *       What policy do they have regarding protecting sensitive customer data?
 *       Have they previously handed out sensitive data to a government agency or a third party?
 *       What customer data do they store?
-        Your VPN provider should not store customer authentication or connection logs!
+        Your VPN provider should never store customer authentication or connection logs!
 *       Do they have the neccesary resources to build a secure network infrastructure? 
 
 
