@@ -48,17 +48,13 @@ The provided guidelines and actions are intended for <em>private cyber security<
 
 # 	Internet, VPN and Secure Email providers
 Consider the following when choosing a Internet, VPN or Email provider;
-### 	Policy
+
 *       What policy do they have regarding protecting sensitive customer data?
 *       Have they previously handed out sensitive data to a government agency or a third party?
 *       What customer data do they store?
         Your VPN provider should not store customer authentication or connection logs!
-
-### 	Resources
 *       Do they have the neccesary resources to build a secure network infrastructure? 
-        What is the general network and system design and how do they enforce it?
-*       Do they have the neccesary resources to fight possible legal cases by government agencies?
-        Do they have the resources to emplooy lawyers or contract partners for this purpose?
+
 
 <br></br>
 
