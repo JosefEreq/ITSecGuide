@@ -21,7 +21,7 @@ Each recommended guideline and action is categorized, by sub area (e.g. Hardware
 
 
 See the following 3 security level definitions:
-* ##### 	Standard - Basic security. Little impact on usage and convenience. Requires good knowledge in computer usage.
+* ##### 	Standard - Basic security. Little impact on usage and convenience. Requires a lot of experience in computer usage.
 * ##### 	Advanced - Good security. Mild impact on usage and convenience. Requires good knowledge in configuring computers, operating systems and applications.
 * #####	Expert - Great security. Big impact on usage and convenience. Requires a professional system administrator or a private enthusiast in that field.
 
@@ -99,7 +99,6 @@ _GithubMacOS.txt
 | Standard | Disable all autoplay features via the Windows Setttings app. | Disable AutoPlay and in <em>Windows Settings/Bluetooth & Devices/AutoPlay</em>. | This will prevent plugged in devices from auto-starting its local media.
 | Standard | BIOS password | Set a BIOS password | |
 | Standard | Secure boot | Enable UEFI secure boot | |
-| Standard | Disable the privacy infrigning features in Windows settings listed below  ↓ |  | |
 | Standard-<b>Advanced</b> | Disable RDP or restrict its connections! | Disable Remote Desktop on Windows unless you need it in <em>"Windows Settings/System/Advanced Sytem Settings/Remote/"</em> select <em>"Don't allow remote connections to this computer"</em> <b>AND</b> uncheck <em>"Allow Remote Assistance connections to this computer"</em>. <b>Advanced:</b> If RDP is needed, create a firewall rule to only allow connections from your own devices (IP-adresses) | There has been a lot of vulnerabilities discovered in RPD throughout the years. But more importantly, you should disable all network protocols you don't need. |
 | <b>Advanced</b> | Enable LSA protection | <b>Registry:</b> Set/Create DWORD key <em>HKLM/SYSTEM/CurrentControlSet/Control/Lsa/RunAsPPL</em> with value of <em>"1"</em>. |  | 
 | <b>Advanced</b> | Disable driver/software download from Windows Error reporting servers. | <b>Group Policy:</b> Enable <em>"Prevent Windows from sending an error report when a device driver request additional software during installation"</em> in <em>Computer Configuration/Administratrive templates/System/Device installation</em>. | This feature might leak information about your device. |
@@ -115,6 +114,7 @@ _GithubMacOS.txt
 | <b>Expert</b> | Disable insecure protocols. | Disable SMB, SSL, PCT 1.0 and TLS 1.0/1.1/1.2. | <b>See</b> guide https://docs.microsoft.com/en-us/windows-server/securty/tls/tls-registry-settings#tls-dtls-and-ssl-protocol-version-settings <b>AND</B> https://docs.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/detect-enable-and-disable-smbv1-v2-v3 <b>NOTE:</b> Use SFTP instead of SMB, or if you really have to use it, disable 1.0 and leave 2.0/3.0 enabled. |
 | <b>Expert</b> | Clean up your certificate trust store. | Run <b>certmgr.msc</b> as an administrator and look in <em>"Trusted Root Certification Authorities/Certificates"</em> and <em>"Intermediate Certification Authorities/Certificates"</em>. | <b>NOTE:</b> Delete certificates from CAs run by governments and affiliates and organisations you don't trust. 
 | <b>Expert</b> | Disable automatic driver installation for plugged in devices. | <b>Group policy:</b> Enable <em>"Prevent installation of devices not described by other policy settings"</em> <b>AND</b> enable <em>"Allow installation of devices that match any of these device instance IDs"<em> and specify already installed device instances IDs. Both policies can be found in <em>Computer Configuration/Administratrive templates/System/Device installation/Device installation restrictions.</em>
+| Standard | Disable the privacy infrigning features in Windows settings listed below  ↓ |  | |
 <pre>
 <code>
 <b>Windows Settings:</b>
