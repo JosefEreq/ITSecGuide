@@ -17,7 +17,7 @@ This document provides guidelines and recommendation for hardening the cyber sec
 
  ##### 		<em>(Coming soon) MacOS</em>
 <br></br>
-Each recommended guideline and action is categorized, by sub area (E.g. Windows or Email) and security level, to make it easier for readers to find those that are relevant to them.
+Each recommended guideline and action is categorized by sub area (e.g. Windows and Email) and security level, to make it easier for readers to find those that are relevant to them.
 
 
 See the following 3 security level definitions:
