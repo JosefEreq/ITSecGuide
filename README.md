@@ -17,13 +17,13 @@ This document provides guidelines and recommendation for hardening the cyber sec
 
  ##### 		<em>(Coming soon) MacOS</em>
 <br></br>
-Each recommended guideline and action is categorized, by sub area (e.g. Hardware or Email) and security level, to make it easier for readers to find those that are relevant to them.
+Each recommended guideline and action is categorized, by sub area (E.g. Windows or Email) and security level, to make it easier for readers to find those that are relevant to them.
 
 
 See the following 3 security level definitions:
 * ##### 	Standard - Basic security. Little impact on usage and convenience. Requires a lot of experience in computer usage.
 * ##### 	Advanced - Good security. Mild impact on usage and convenience. Requires good knowledge in configuring computers, operating systems and applications.
-* #####	Expert - Great security. Big impact on usage and convenience. Requires a professional system administrator or a private enthusiast in that field.
+* #####	Expert - Great security. Big impact on usage and convenience. Requires a professional system administrator or a hobby enthusiast in that field.
 
 <br></br>
 The provided guidelines and actions are intended for <em>private cyber security</em>. No consideration have neccesarly been taken for enterprise environments.
