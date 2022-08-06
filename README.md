@@ -18,7 +18,7 @@ This document provides guidelines and recommendation for hardening the cyber sec
  ##### 		<em>(Coming soon) MacOS</em>
 <br></br>
 
-Each guide section and recommendations is categorized by area and security level, to make it easier for readers to find those that are relevant to them.
+Each section and recommendation is categorized by area and security level, to make it easier for readers to find those that are relevant to them.
 See the following 3 security level definitions:
 * ##### 	Standard - Basic security. Little impact on usage and convenience. Requires a lot of experience in computer usage.
 * ##### 	Advanced - Good security. Mild impact on usage and convenience. Requires good knowledge in configuring computers, operating systems and applications.
