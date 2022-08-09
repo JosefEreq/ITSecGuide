@@ -219,7 +219,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | Standard | Don't click unsubscribe. Block instead. | Avoid clicking on unsubscribe links in subsription email. It will give away more information about you. Also, the email could potentially be spoofed and contain a malicious unsubscribe link.
 | <b>Advanced</b> | Email is bad for security, use encrypted chats! | Use end-to-end encrypted chats instead of email. Email communication usually includes a hosting provider that can read it. | <b>NOTE:</b> I recommend Signal for encrypted chat.
 | Standard | Don't open random files! | Don't open any attached files you don't expect to receive! |
-| Standard | Email sender/domain can easily be spoofed! | Don't trust that email comes from the sender/domain you see displayed. <b>Expert:</b> Look in the SMTP headers and see if the SPF,DKIM,DMARC checks passed. If the SPF check fails, then the domain is spoofed or they have really bad email security. 
+| Standard | Email sender/domain can easily be spoofed! | Don't trust that email comes from the sender/domain you see displayed. <b>Expert:</b> Look in the SMTP headers and see if the SPF,DKIM,DMARC checks passed. Not all use DKIM/DMARC yet. But if the SPF check fails, then the sender is spoofed or they have really bad email security. 
 | <b>Advanced</b> | Use a private and secure provider for sensitive Email. | You should use a secure and private provider for sensitive communication that has to be emailed. |
 | Standard | Encrypt your mail storage! | Make sure your email application stores its data on a encrypted drive. |  |
 
