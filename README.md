@@ -320,7 +320,6 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | <b>Advanced</b> | Prevent IDN exploits by instead displaying raw Punnycode. | <b>Config editor</b>: network.IDN_show_punycode = <em>"true"</em> | See more information about the vulnerability and workaround here https://www.mozilla.org/en-US/security/advisories/mfsa2005-29/ |
 | <b>Advanced</b> | Disable cached browsing. | <b>Config editor:</b> browser.cache.memory.enable = <em>"false"</em>, browser.cache.disk.enable = <em>"false"</em> | This feature might lead to information about your browsing being saved without your knowledge, even if temporarly. |
 | Standard | Send "Do not track". | <b>Settings:</b> Enable <em>"Do not track"</em>. | Not all sites follows this request/header. But it should still be enabled.
-| <b>Advanced</b> | Prevent sites from triggering full screen mode. | <b>Config editor:</b> full-screen-api.enabled = <em>"false"</em> | Your resolution can be read by the site and leak information about your device. | 
 | <b>Advanced</b> | Prevent native data collection and leaking. | <b>Set config editor</b> properties listed below ↓</td> | Disable Firefox built-in data collection and potential data leaking features, such as telemetry. |
 <pre>
 <code>
