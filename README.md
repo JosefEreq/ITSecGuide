@@ -45,7 +45,7 @@ The provided guidelines and actions are intended for <em>private cyber security<
 <br></br>
 <br></br>
 
-# 	Internet, VPN and Secure Email providers
+# 	Internet, VPN and Email provider
 Consider the following when choosing a Internet, VPN or Email provider;
 
 *       What policy do they have regarding protecting sensitive customer data?
