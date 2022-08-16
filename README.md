@@ -113,7 +113,7 @@ _GithubMacOS.txt
 | <b>Expert</b> | Disable insecure protocols. | Disable SMB, SSL, PCT 1.0 and TLS 1.0/1.1/1.2. | <b>See</b> guide https://docs.microsoft.com/en-us/windows-server/securty/tls/tls-registry-settings#tls-dtls-and-ssl-protocol-version-settings <b>AND</B> https://docs.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/detect-enable-and-disable-smbv1-v2-v3 <b>NOTE:</b> Use SFTP instead of SMB, or if you really have to use it, disable 1.0 and leave 2.0/3.0 enabled. |
 | <b>Expert</b> | Clean up your certificate trust store. | Run <b>certmgr.msc</b> as an administrator and look in <em>"Trusted Root Certification Authorities/Certificates"</em> and <em>"Intermediate Certification Authorities/Certificates"</em>. | <b>NOTE:</b> Delete certificates from CAs run by governments and affiliates and organisations you don't trust. 
 | <b>Expert</b> | Disable automatic driver installation for plugged in devices. | <b>Group policy:</b> Enable <em>"Prevent installation of devices not described by other policy settings"</em> <b>AND</b> enable <em>"Allow installation of devices that match any of these device instance IDs"<em> and specify already installed device instances IDs. Both policies can be found in <em>Computer Configuration/Administratrive templates/System/Device installation/Device installation restrictions.</em>
-| Standard | Disable the privacy infrigning features in Windows settings listed below  ↓ |  | |
+| Standard | Set Windows Privacy settings. | Disable the features in Windows settings listed below  ↓ |  | |
 <pre>
 <code>
 <b>Windows Settings:</b>
