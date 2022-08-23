@@ -79,7 +79,7 @@ _GithubMacOS.txt
 | Level | Title | Description | Note | 
 | :---         |   :----:   |   :----:   |         ---: |
 | Standard | Use a VPN! | Use a VPN when you want to keep your internet connection private, and when you connect to a public Wifi. | <b>NOTE:</b> Use the VPN providers DNS server to make sure the traffic and logs are contained at one provider. <b>OpenVPN:</b> Add the parameter <em>"block-outside-dns"</em> to your config file to block lookups to the ISPs DNS server and prevent that kind of leak. |
-| Standard | Avoid signing in with or connecting a online Microsoft account. | Your identity might leak through local services communicating online if they can be tied to a online account. | <b>NOTE:</b> Be careful if disabling the <em>"Microsoft Account Sign-in Assistant"</em> service, even if you're not logged in with a Microsoft account, since it can cause Windows Update to fail. |
+| Standard | Avoid signing in with or connecting a online Microsoft account. | Your identity might leak through local services communicating online if they can be tied to a online account. | |
 | Standard | Set a secure password on your local computer user. | Set a long and complex password that's hard to guess.
 | Standard | Configure in-app security and privacy settings. | Go trough each applications privacy and security settings first thing you do after installing it. | There's often a lot of of privacy settings. |
 | Standard | Auto-lock on inactivity. | Set your computer to lock automatically after being inactive. |  |
