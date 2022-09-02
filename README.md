@@ -294,7 +294,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | <b>Advanced</b> | Enforce HTTPS by rejecting sites not supporting TLS encryption. | <b>Settings:</b> Enable HTTPS-only mode <b>OR</b> <b>Extension:</b> HTTPS Everywhere |
 | Standard | Block fingerprinting from web sites | <b>Extension:</b> CanvasBlocker <b>AND</b> <b>Config editor:</b> privacy.resistFingerprinting = <em>"true"</em>, privacy.trackingprotection.fingerprinting.enabled = <em>"true"</em> |
 | Standard | Block trackers | <b>Extension:</b> uBlock Origin <b>AND</b> <b>Config editor:</b> privacy.trackingprotection.enabled = <em>"true"</em>
-| Standard | Blocka cryptominers embeeded in sites. | <b>Extension:</b> uBlock origin <b>AND</b> <b>Config editor:</b> privacy.trackingprotection.cryptomining.enabled = <em>"true"</em> |
+| Standard | Block cryptominers embeeded in sites. | <b>Extension:</b> uBlock origin <b>AND</b> <b>Config editor:</b> privacy.trackingprotection.cryptomining.enabled = <em>"true"</em> |
 | <b>Advanced</b> | Only run the content you need from sources you trust! | <b>Extension:</b> NoScript. | Selectively permitt neccesary content types, for example scripts and CSS, only on domains you trust.
 | <b>Advanced</b> | Disable WebGL. | <b>Config editor:</b> webgl.disabled = <em>"true"</em>, webgl.disable-wgl = <em>"true"</em>, webgl.enable-webgl2 = <em>"false"</em> | There are vulnerabilities in the API thare are unpatchable.
 | <b>Advanced</b> | Use containers for domains/sites with sensitive data/cookies. | <b>Extension:</b> Multi-Account Containers | This will minimize the risk of cookies from one domain, eg. sign-in cookies, leaking to another, even if Firefox has built-in protection for that(Cookie isolation).
