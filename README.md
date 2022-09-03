@@ -29,12 +29,21 @@ The provided guidelines and actions are intended for <em>private cyber security<
 <br></br>
 <br></br>
 ## Table of contents
+1. [Internet, VPN and Email providers](#ISPVPNProv)
+2. [Accounts and Passwords](#AccsPW)
+3. [Windows 10 / 11](#Windows)
+4. [Web Browsing](#Browse)
 1. [Internet, VPN and Email provider](#Internet, VPN and Email provider)
 2. [Accounts and Passwords](#Accounts and Passwords)
 3. [Windows 10 / 11](#Windows 10 / 11)
 4. [Web Browsing](#Web Browsing)
 5. [Email](#Email)
 6. [iOS](#iOS)
+7. [Network and Router](#LANWANROUTER)
+8. [Firefox & Tor Browser](#FirefoxTor)
+9. [Firefox (Specific)](#Firefox)
+10. [Tor Browser (Specific)](#Tor)
+11. [Thunderbird Email](#Thunderbird)
 7. [Network and Router](#Network and Router)
 8. [Firefox & Tor Browser](#Firefox & Tor Browser)
 9. [Firefox (Specific)](#Firefox (Specific))
