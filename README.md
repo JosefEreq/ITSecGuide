@@ -29,7 +29,7 @@ The provided guidelines and actions are intended for <em>private cyber security<
 <br></br>
 <br></br>
 ## Table of contents
-1. [Internet, VPN and Email providers](#ISPVPNProv)
+1. [iOS](#iOS)
 2. [Accounts and Passwords](#AccsPW)
 3. [Windows 10 / 11](#Windows)
 4. [Web Browsing](#Browse)
