@@ -35,16 +35,11 @@ The provided guidelines and actions are intended for <em>private cyber security<
 4. [Web Browsing](#Browse)
 5. [Email](#Email)
 6. [iOS](#iOS)
-7. [Network and Router](#LANWANROUTER)
+7. [Network and Router](#Network)
 8. [Firefox & Tor Browser](#FirefoxTor)
 9. [Firefox (Specific)](#Firefox)
 10. [Tor Browser (Specific)](#Tor)
 11. [Thunderbird Email](#Thunderbird)
-7. [Network and Router](#Network and Router)
-8. [Firefox & Tor Browser](#Firefox & Tor Browser)
-9. [Firefox (Specific)](#Firefox (Specific))
-10. [Tor Browser (Specific)](#Tor Browser (Specific))
-11. [Thunderbird Email](#Thunderbird Email)
 
 
 <br></br>
