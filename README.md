@@ -76,6 +76,7 @@ _GithubMacOS.txt
 <br></br>
 
 # 	Windows 10 / 11
+##### Some of the settings below require a restart to have effect.
 | Level | Title | Description | Note | 
 | :---         |   :----:   |   :----:   |         ---: |
 | Standard | Avoid signing in with or connecting a online Microsoft account. | Your identity might leak through local services communicating online if they can be tied to a online account. | |
