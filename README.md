@@ -29,6 +29,7 @@ The provided guidelines and actions are intended for <em>private cyber security<
 <br></br>
 <br></br>
 <br></br>
+<br></br>
 ## Table of contents
 1. [Internet, VPN and Email providers](#ISPVPNProv)
 2. [Accounts and Passwords](#AccsPW)
@@ -42,7 +43,7 @@ The provided guidelines and actions are intended for <em>private cyber security<
 10. [Tor Browser (Specific)](#Tor)
 11. [Thunderbird Email](#Thunderbird)
 
-
+<br></br>
 <br></br>
 <br></br>
 <br></br>
