@@ -36,7 +36,7 @@ The provided guidelines and actions are intended for <em>private cyber security<
 3. [Windows 10 / 11](#WinCli)
 4. [Web Browsing](#Browse)
 5. [Email](#mail)
-6. [iOS](#iOS)
+6. [iOS](#soi)
 7. [Network and Router](#Network)
 8. [Firefox & Tor Browser](#FirefoxTor)
 9. [Firefox (Specific)](#Firefox)
@@ -221,7 +221,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 
 <br></br>
 <br></br>
-<a name="iOS"></a>
+<a name="soi"></a>
 # 	iOS
 | Level | Title | Description | Note | 
 | :---        |    :----:   |    :----:   |         ---: |
