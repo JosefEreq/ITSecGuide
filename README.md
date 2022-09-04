@@ -255,7 +255,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | Level | Title | Description | Note | 
 | :---        |    :----:   |    :----:   |         ---: |
 | Standard | Set a complex password for your Wifi. |  |  |
-| Standard | Minimum WPA2! | Enable WPA3 Wifi encryption on your router, or WPA2 if not supported. | <b>NOTE:</b> WPA3 should be a requirement for new routers you buy!
+| Standard | WPA2/WPA3 support! | Enable WPA3 security on your router, or as minimum WPA2, if not supported.  | <b>NOTE:</b> WPA3 should be a requirement for new routers you buy!
 | Standard | Set a secure password for your router managentment interface. | Set a long and complex password that's hard to guess on your router admin account, no matter what network protocol is used to access it.
 | <b>Advanced</b> | Block ping on router. | There's no reason to allow clients on the internet to ping and discover your router. | <b>NOTE:</b> Not all routers have the option to block ping (ICMP Echo).  |
 | Standard | Use a VPN! | Use a VPN when you want to keep your internet connection private, and when you connect to a public Wifi. | <b>NOTE:</b> Use the VPN providers DNS server to make sure the traffic and logs are contained at one provider. <b>OpenVPN:</b> Add the parameter <em>"block-outside-dns"</em> to your config file to block lookups to the ISPs DNS server and prevent that kind of leak. | 
