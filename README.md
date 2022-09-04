@@ -35,7 +35,7 @@ The provided guidelines and actions are intended for <em>private cyber security<
 2. [Accounts and Passwords](#AccsPWs)
 3. [Windows 10 / 11](#WinCli)
 4. [Web Browsing](#Browse)
-5. [Email](#Email)
+5. [Email](#mail)
 6. [iOS](#iOS)
 7. [Network and Router](#Network)
 8. [Firefox & Tor Browser](#FirefoxTor)
@@ -207,7 +207,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 
 <br></br>
 <br></br>
-<a name="Email"></a>
+<a name="mail"></a>
 # 	Email
 | Level | Title | Description | Note | 
 | :---        |    :----:   |    :----:   |        ---: |
