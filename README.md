@@ -31,9 +31,9 @@ The provided guidelines and actions are intended for <em>private cyber security<
 <br></br>
 <br></br>
 ## Table of contents
-1. [Internet, VPN and Email providers](#ISPVPNProv)
-2. [Accounts and Passwords](#AccsPW)
-3. [Windows 10 / 11](#Windows)
+1. [Internet, VPN and Email providers](#Providers)
+2. [Accounts and Passwords](#AccsPWs)
+3. [Windows 10 / 11](#WinCli)
 4. [Web Browsing](#Browse)
 5. [Email](#Email)
 6. [iOS](#iOS)
@@ -47,7 +47,7 @@ The provided guidelines and actions are intended for <em>private cyber security<
 <br></br>
 <br></br>
 <br></br>
-
+<a name="Providers"></a>
 # 	Internet, VPN and Email provider
 Consider the following when choosing a Internet, VPN or Email provider;
 
@@ -60,6 +60,7 @@ Consider the following when choosing a Internet, VPN or Email provider;
 
 <br></br>
 <br></br>
+<a name="AccsPws"></a>
 # 	Accounts and Passwords
 | Level | Title | Description | Note |
 | :---        |   :----:   |    :----:   |         ---: |
@@ -70,6 +71,7 @@ Consider the following when choosing a Internet, VPN or Email provider;
 
 <br></br>
 <br></br>
+<a name="WinCli"></a>
 # 	Windows 10 / 11
 | Level | Title | Description | Note | 
 | :---         |   :----:   |   :----:   |         ---: |
@@ -192,6 +194,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 
 <br></br>
 <br></br>
+<a name="Browse"></a>
 # 	Web Browsing
 | Level | Title | Description | Note |
 | :---        |    :----:   |    :----:   |         ---: |
@@ -217,7 +220,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 
 <br></br>
 <br></br>
-
+<a name="iOS"></a>
 # 	iOS
 | Level | Title | Description | Note | 
 | :---        |    :----:   |    :----:   |         ---: |
@@ -250,7 +253,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 
 <br></br>
 <br></br>
-
+<a name="Network"></a>
 # 	Network and Router
 | Level | Title | Description | Note | 
 | :---        |    :----:   |    :----:   |         ---: |
@@ -275,7 +278,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 
 <br></br>
 <br></br>
-
+<a name="FirefoxTor"></a>
 # 	Firefox & Tor Browser
 ### The configuration below applies to both the Firefox and Tor browser. See sections further below for configurations specific to each browser.
 ##### Some security measures require you to install an extension while other require changes in the settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
@@ -349,7 +352,7 @@ dom.ipc.tabs.createKillHardCrashReports = <em>"false"</em>
 
 <br></br>
 <br></br>
-
+<a name="Firefox"></a>
 # 	Firefox (Specific)
 ##### Some security measures require you to install an extension while other require changes in the settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
 | Level | Title | Description | Note | 
@@ -358,7 +361,7 @@ dom.ipc.tabs.createKillHardCrashReports = <em>"false"</em>
 
 <br></br>
 <br></br>
-
+<a name="Tor"></a>
 # 	Tor Browser (Specific)
 ##### Some security measures require you to install an extension while other require changes in the settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
 
@@ -368,7 +371,7 @@ dom.ipc.tabs.createKillHardCrashReports = <em>"false"</em>
 
 <br></br>
 <br></br>
-
+<a name="Thunderbird"></a>
 # 	Thunderbird Email
 ##### Some security measures require you to install an extension while other require changes in the settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
 | Level | Title | Description | Note | 
