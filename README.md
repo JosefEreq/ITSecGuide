@@ -67,14 +67,6 @@ Consider the following when choosing a Internet, VPN or Email provider;
 | Standard | Keep your accounts in your control. | Never log in with your online account on somebody elses device! |  |  |
 | <b>Advanced</b> | Avoid online password managers that manages your key! | I recommend Keepass for Windows, KeepassXC for MacOS and AuthPass for iOS. | Online password managers that handle your key might be breached and leak your credentials. |
 
-<!---
-<br></br>
-
-# MacOS - Add services and network protocols to disable and check that everything in KC is included.
-| Level | Title | Description | Note | 
-| :---         |   :----:   |   :----:   |         ---: |
-_GithubMacOS.txt 
---->
 
 <br></br>
 <br></br>
@@ -197,6 +189,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
         	Enable secure Launch.
 </code>
 </pre>
+
 <br></br>
 <br></br>
 # 	Web Browsing
