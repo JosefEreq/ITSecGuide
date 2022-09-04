@@ -59,7 +59,7 @@ Consider the following when choosing a Internet, VPN or Email provider;
 
 
 <br></br>
-
+<br></br>
 # 	Accounts and Passwords
 | Level | Title | Description | Note |
 | :---        |   :----:   |    :----:   |         ---: |
@@ -77,7 +77,7 @@ _GithubMacOS.txt
 --->
 
 <br></br>
-
+<br></br>
 # 	Windows 10 / 11
 | Level | Title | Description | Note | 
 | :---         |   :----:   |   :----:   |         ---: |
@@ -198,7 +198,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 </code>
 </pre>
 <br></br>
-
+<br></br>
 # 	Web Browsing
 | Level | Title | Description | Note |
 | :---        |    :----:   |    :----:   |         ---: |
@@ -209,8 +209,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | <b>Advanced</b> | Use the Firefox browser for <b>best</b> security and privacy. | Firefox is generally the most secured and private browser if you spend some time configuring it properly, and with extensions you can select what kind of scripts and content are allowed. | <b>NOTE:</b> See the Firefox sections further below for a guide on how to configure it for best security and privacy. |
 | <b>Advanced</b> | Use the Tor browser as a <b>complement</b> for really sensitive or private browsing. | The Tor browser should be used for the most private browsing sessions, and it's based on Firefox and has the same security and privacy capabilities. | <b>NOTE:</b> See the Tor browser sections further below for a guide on how to configure it for best security and privacy. |
 
-
-	
+<br></br>
 <br></br>
 # 	Email
 | Level | Title | Description | Note | 
@@ -223,6 +222,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | <b>Advanced</b> | Use a private and secure provider for sensitive Email. | You should use a secure and private provider for sensitive communication that has to be emailed. |
 | Standard | Encrypt your mail storage! | Make sure your email application stores its data on a encrypted drive. |  |
 
+<br></br>
 <br></br>
 
 # 	iOS
@@ -256,6 +256,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | Standard | Disable Personalised Recommendations in App Store. | <B>Disable</b> <em>"Personalised Recommendations"</em> in App Store account settings. |
 
 <br></br>
+<br></br>
 
 # 	Network and Router
 | Level | Title | Description | Note | 
@@ -279,6 +280,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | <b>Advanced</b> | Disable the CTF/NAT acceleration feature. | Disable Cut-Through Forwarding/NAT acceleration on your router. | These features allows for traffic to bypass internal firewall scanning and other potential security features. |
 | <b>Advanced</b> | Disable UPNP on your router. | | UPNP could allow a potentially infected device on your network to open up network ports allowing malicious traffic from the internet.|
 
+<br></br>
 <br></br>
 
 # 	Firefox & Tor Browser
@@ -353,6 +355,7 @@ dom.ipc.tabs.createKillHardCrashReports = <em>"false"</em>
 </pre>
 
 <br></br>
+<br></br>
 
 # 	Firefox (Specific)
 ##### Some security measures require you to install an extension while other require changes in the settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
@@ -360,6 +363,7 @@ dom.ipc.tabs.createKillHardCrashReports = <em>"false"</em>
 | :---        |  :----:   |    :----:   |         ---: |
 | <b>Advanced</b> | Disable 3rd party cookies. | <b>Config editor:</b> network.cookie.cookieBehavior = <em>"1"</em> | To prevent sites on different domains from reading share each others cookies. |
 
+<br></br>
 <br></br>
 
 # 	Tor Browser (Specific)
@@ -369,6 +373,7 @@ dom.ipc.tabs.createKillHardCrashReports = <em>"false"</em>
 | :---        |  :----:   |    :----:   |         ---: |
 | <b>Advanced</b> | Disable all cookies. | <b>Config editor:</b> network.cookie.cookieBehavior = <em>"2"</em> | Don't keep any persistent cookies in the Tor browser sessions. |
 
+<br></br>
 <br></br>
 
 # 	Thunderbird Email
@@ -412,7 +417,7 @@ dom.ipc.tabs.createKillHardCrashReports = <em>"false"</em>
 </code>
 </pre>
 
-
+<br></br>
 <br></br>
 <br></br>
 
