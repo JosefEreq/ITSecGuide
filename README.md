@@ -28,6 +28,7 @@ See the following 3 security level definitions:
 The provided guidelines and actions are intended for <em>private cyber security</em>. No consideration have neccesarly been taken for enterprise environments.
 <br></br>
 <br></br>
+<br></br>
 ## Table of contents
 1. [Internet, VPN and Email providers](#ISPVPNProv)
 2. [Accounts and Passwords](#AccsPW)
