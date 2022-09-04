@@ -254,9 +254,9 @@ Functions you use could be depedent on some of these services (Not seen in the D
 # 	Network and Router
 | Level | Title | Description | Note | 
 | :---        |    :----:   |    :----:   |         ---: |
-| Standard | Set a complex password for your Wifi. |  |  |
+| Standard | Secure password for your Wifi! | Set a long and complex password for connecting to the Wifi.  |  |
 | Standard | WPA2/WPA3 support! | Enable WPA3 security on your router, or as minimum WPA2, if not supported.  | <b>NOTE:</b> WPA3 should be a requirement for new routers you buy!
-| Standard | Set a secure password for your router managentment interface. | Set a long and complex password that's hard to guess on your router admin account, no matter what network protocol is used to access it.
+| Standard | Secure password for router managentment. | Set a long and complex password on the account used to access your router management interfaces.
 | <b>Advanced</b> | Block ping on router. | There's no reason to allow clients on the internet to ping and discover your router. | <b>NOTE:</b> Not all routers have the option to block ping (ICMP Echo).  |
 | Standard | Use a VPN! | Use a VPN when you want to keep your internet connection private, and when you connect to a public Wifi. | <b>NOTE:</b> Use the VPN providers DNS server to make sure the traffic and logs are contained at one provider. <b>OpenVPN:</b> Add the parameter <em>"block-outside-dns"</em> to your config file to block lookups to the ISPs DNS server and prevent that kind of leak. | 
 | <b>Advanced</b> | Encrypt your DNS lookups (When not on VPN) | Encrypt your DNS lookups when not connected to a VPN tunnel. I recommend using the DnscryptV2 protocol. | <b>NOTE #1:</b> I recommend using the dnscrypt-proxy client for Windows, MacOS and routers(Linux based) and DNSCloak for iOS. <b>NOTE #2:</b> Use a DNS server that don't log client lookups and have DNSSEC support enabled. 
