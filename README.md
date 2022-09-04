@@ -228,11 +228,10 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | :---        |    :----:   |    :----:   |         ---: |
 | Standard | Set a passcode! | Set a passcode, 6 digit PIN minimum, that's hard to guess. | <b>Note:</b> It should be hard to guess even if the maliciour actor knows information about you, such as social security number.
 | Standard | Don't jailbreak! | Don't jailbreak your device, to reduce the risk of malicious device takeover. Also, you won't receive automatic iOS updates. |
-| Standard | Use Firefox. | Firefox has very good security and privacy features on iOS. | <b>Enable</b> <em>"Block Pop-up Windows"</em>, <em>"Close Private Tabs"</em>, <em>"Enhanced Tracking Protection"</em> + <em>"Strict (Mode)"</em> <b>and</b> <b>disable</b> <em>"Show Link Previews"</em>, <em>"Offer to Open Copied Links"</em>, <em>"Send Usage data"</em> and <em>"Studies"</em>. 
-| <b>Advanced</b> | Use Firefox Focus as a first alternative. | Use Firefox Focus as a first option and standard Firefox for sites not working in it. | <b>Enable</b> <em>"Block web fonts"</em>, <em>"Enhanced Tracking Protection"</em> + All block options <b>AND</b> <b>disable</b> <em>"Send usage data"</em>, <em>"Studies"</em>, <em>"URL Autocomplete"</em> and <em>"Get Search Suggestions"</em> | 
+| <b>Advanced</b> | Use Firefox Focus as a first alternative. | Use Firefox Focus as a first option and standard Firefox for sites not working in it. Firefox Focus has better security and clears cookies between each session. | <b>Note:</b> Enable <em>"Block web fonts"</em>, <em>"Enhanced Tracking Protection"</em> + All block options <b>AND</b> <b>disable</b> <em>"Send usage data"</em>, <em>"Studies"</em>, <em>"URL Autocomplete"</em> and <em>"Get Search Suggestions"</em> |
+| Standard | Use Firefox. | Firefox has very good security and privacy features on iOS. | <b>Note:</b> Enable <em>"Block Pop-up Windows"</em>, <em>"Close Private Tabs"</em>, <em>"Enhanced Tracking Protection"</em> + <em>"Strict (Mode)"</em> <b>and</b> <b>disable</b> <em>"Show Link Previews"</em>, <em>"Offer to Open Copied Links"</em>, <em>"Send Usage data"</em> and <em>"Studies"</em>.  
 | Standard | Uninstall apps you don't need! | Uninstall all apps you don't need, including native ones.
 | Standard | Enable automatic updates. | Enable automatic updates for iOS and apps. | |
-| <b>Advanced</b> | Use a privacy focused search engine. | Look at the DuckDuckGo or Brave search engine. | <b>NOTE:</b> Don't trust all sites in your search results, don't click on random links. |
 | Standard | Enable On-Device Mode for the Translate app. | <b>Enable</b> On-Device Mode in Translate system settings.
 | Standard | Disable iCloud sync of data you don't need. | Disable syncronization of data to iCloud in system settings, for each app and feature you don't need synced to iCloud. |
 | Standard | Avoid side-loading apps! | Only side-load apps from sources you really trust. |  |
@@ -282,7 +281,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 
 # 	Firefox & Tor Browser
 ### The configuration below applies to both the Firefox and Tor browser. See sections further below for configurations specific to each browser.
-##### Some security measures require you to install an extension while other require a setting in the Firefox and Tor Browser settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
+##### Some security measures require you to install an extension while other require changes in the settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
 
 | Level | Title | Description | Note | 
 | :---        |  :----:   |    :----:   |         ---: |
@@ -354,7 +353,7 @@ dom.ipc.tabs.createKillHardCrashReports = <em>"false"</em>
 <br></br>
 
 # 	Firefox (Specific)
-##### Some security measures require you to install an extension while other require a setting in the Firefox settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
+##### Some security measures require you to install an extension while other require changes in the settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
 | Level | Title | Description | Note | 
 | :---        |  :----:   |    :----:   |         ---: |
 | <b>Advanced</b> | Disable 3rd party cookies. | <b>Config editor:</b> network.cookie.cookieBehavior = <em>"1"</em> | To prevent sites on different domains from reading share each others cookies. |
@@ -362,7 +361,7 @@ dom.ipc.tabs.createKillHardCrashReports = <em>"false"</em>
 <br></br>
 
 # 	Tor Browser (Specific)
-##### Some security measures require you to install an extension while other require a setting in the Tor browser settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
+##### Some security measures require you to install an extension while other require changes in the settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
 
 | Level | Title | Description | Note | 
 | :---        |  :----:   |    :----:   |         ---: |
@@ -371,7 +370,7 @@ dom.ipc.tabs.createKillHardCrashReports = <em>"false"</em>
 <br></br>
 
 # 	Thunderbird Email
-##### Some security measures require you to install an extension while other require a setting in the Thunderbird settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
+##### Some security measures require you to install an extension while other require changes in the settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
 | Level | Title | Description | Note | 
 | :---        |  :----:   |    :----:   |         ---: |
 | <b>Advanced</b> | Disable remote content. | <b>Settings:</b> Disable remote content. | <b>NOTE:</b> This will prevent Thunderbird from loading any content not directly attached to the email, thus preventing leaks when you read an email. |
