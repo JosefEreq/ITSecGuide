@@ -241,7 +241,6 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | Standard | Disable notification previews when locked. | <b>Set</b> Show Previews to <em>"When Unlocked"</em>. | You don't want others to see your notification content if your phone gets stolen. |
 | Standard | Disable Siri if you don't need it. | <b>Settings:</b> Disable Siri from the Siri system settings. | Siri might leak sensitive data, even if it's a fairly secure voice control infrastructure design.
 | Standard | Disable or limit Airdrop. | <b>Disable</b> Airdrop if not used or limit it to <em>"Contacts only"</em> in system settings. |
-| Standard | Disable Handoff if you don't need it. | <b>Disable</b> Handoff from system settings, unless you need it. | This is a kind of protocol often targeted by malicious actors because of its inherited nature of network sharing capabilities. |
 | Standard | Disable CarPlay while locked. | <b>Disable</b> <em>"Allow CarPlay While Locked"</em> in CarPlay system settings. |
 | Standard | Require "eye contact" to use FaceID. | <b>Enable</b> <em>"Require Attention for Face ID"</em> in Accessibility system settings. |
 | Standard | Disallow access to features when locked. | <b>Disable</b> everything in <em>"Allow Access when locked"</em> in Face ID & Passcode system settings. |
