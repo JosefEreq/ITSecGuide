@@ -250,7 +250,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | Standard | Require "eye contact" to use FaceID. | <b>Enable</b> <em>"Require Attention for Face ID"</em> in Accessibility system settings. |
 | Standard | Disallow access to features when locked. | <b>Disable</b> everything in <em>"Allow Access when locked"</em> in Face ID & Passcode system settings. |
 | Standard | Configure your in-app settings security and privacy settings. | Go trough each applications privacy and security settings first thing you do after installing it. | There's often a lot of of privacy settings. |
-| Standard | Erase data on multiple failed passcode attempts. | <b>Enable</b> <em>"Erase data"</em> | <b>NOTE: </b>Your iPhone will be reset and all data will be erased after 10 failed passcode attempts.
+| Standard | Erase data on multiple failed passcode attempts. | <b>Enable</b> <em>"Erase data"</em> in Face ID & Passcode system settings. | <b>NOTE: </b>Your iPhone will be reset and all data will be erased after 10 failed passcode attempts.
 | Standard | Disable Location Services or only allow it while using the app. | <b>Disable</b> Location Service for apps, <B>OR</B> only allow it while using the app. This is can be set per app in <em>Privacy/Location Service</em> system settings. |
 | Standard | Disable telemetry | <b>Disable</b> <em>"Share iPhone & Watch Analytics"</em> in <em>Privacy/Analytics & Improvements</em> system settings.
 | Standard | Disable personalised Ads | <b>Disable</b> <em>"Personalised Ads"</em> in <em>Privacy/Apple Advertising</em> system settings. |
