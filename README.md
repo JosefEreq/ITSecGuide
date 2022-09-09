@@ -29,6 +29,10 @@ See the following 3 security level definitions:
 The provided guidelines and actions are intended for <em>private cyber security</em>. No consideration have neccesarly been taken for enterprise environments.
 <br></br>
 <br></br>
+<em>All recommended software are commercial free open source projects.</em>
+
+<br></br>
+<br></br>
 <br></br>
 <br></br>
 ## Table of contents
@@ -67,7 +71,7 @@ Consider the following when choosing a Internet, VPN or Email provider;
 | :---        |   :----:   |    :----:   |         ---: |
 | Standard | Use MFA! | Use multi-factor authentication for your online accounts and avoid SMS. Your SIM/phone number can be taken over by a scammer. Use a mobile app for verification instead. |  |
 | Standard | Keep your accounts in your control. | Never log in with your online account on somebody elses device! |  |  |
-| <b>Advanced</b> | Avoid online password managers that manages your key! | I recommend <a href="https://keepass.info/"><b>Keepass</b> <img width="30" height="30" src="https://upload.wikimedia.org/wikipedia/commons/0/04/KeePass_icon.svg"></img></a> for Windows, <a href="https://keepassxc.org/"><b>KeepassXC</b> <img width="30" height="30" src="http://keepassxc.org/images/keepassxc-logo.svg"></img></a> for MacOS and <a href="https://apps.apple.com/us/app/authpass-password-manager/id1479297675"><b>AuthPass</b> <img width="30" height="30" src="https://static.crozdesk.com/web_app_library/providers/logos/000/008/475/box/authpass---password-manager-1570718935-logo.png?1570718935"></img></a> for iOS. | Online password managers that handle your key might be breached and leak your credentials. |
+| <b>Advanced</b> | Avoid online password managers that manages your key! | I recommend: <br></br><a href="https://keepass.info/"><b>Keepass</b> <img width="30" height="30" src="https://upload.wikimedia.org/wikipedia/commons/0/04/KeePass_icon.svg"></img></a>  Windows  <br></br> <a href="https://keepassxc.org/"><b>KeepassXC</b> <img width="30" height="30" src="http://keepassxc.org/images/keepassxc-logo.svg"></img></a>  MacOS <br></br>  <a href="https://apps.apple.com/us/app/authpass-password-manager/id1479297675"><b>AuthPass</b> <img width="30" height="30" src="https://static.crozdesk.com/web_app_library/providers/logos/000/008/475/box/authpass---password-manager-1570718935-logo.png?1570718935"></img></a> iOS. | Online password managers that handle your key might be breached and leak your credentials. |
 
 
 <br></br>
