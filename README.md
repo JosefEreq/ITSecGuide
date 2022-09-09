@@ -10,7 +10,7 @@
 This document provides guidelines and recommendation for hardening the cyber security posture in the following areas:
 
 * #### 		Online Security and Privacy
-* #### 		Email
+* #### 		Email / Chat
 * ####	 	Windows 10 / 11
 * ####		iOS
 * ####		Firefox, Tor Browser and Thunderbird
@@ -40,7 +40,7 @@ The provided guidelines and actions are intended for <em>private cyber security<
 2. [Accounts and Passwords](#AccsPws)
 3. [Windows 10 / 11](#WinCli)
 4. [Web Browsing](#Browse)
-5. [Email & Chat](#mail)
+5. [Email and Chat](#mail)
 6. [iOS](#soi)
 7. [Network and Router](#Network)
 8. [Firefox & Tor Browser](#FirefoxTor)
@@ -213,7 +213,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 <br></br>
 <br></br>
 <a name="mail"></a>
-# 	Email & Chat
+# 	Email and Chat
 | Level | Title | Description | Note | 
 | :---        |    :----:   |    :----:   |        ---: |
 | <b>Advanced</b> | Block remote content! | Set email app default behavior to block remote content | Disable remote content and only enable it selectively for emails you trust. | Otherwise you're essentially browsing to a bunch of sites emailed to you, usually without any good protection from the email client. |
