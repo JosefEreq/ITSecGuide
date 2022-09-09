@@ -29,7 +29,7 @@ See the following 3 security level definitions:
 The provided guidelines and actions are intended for <em>private cyber security</em>. No consideration have neccesarly been taken for enterprise environments.
 <br></br>
 <br></br>
-<em>All recommended software are commercial free open source projects.</em>
+<em>All recommended software are non-commercial open source projects.</em>
 
 <br></br>
 <br></br>
