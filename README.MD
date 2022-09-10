@@ -88,7 +88,7 @@ Consider the following when choosing a Internet, VPN or Email provider;
 | Standard | Completely disable crash reporting, to prevent data being sent to Microsoft. | <b>Powershell:</b> Run <em>"Disable-WindowsErrorReporting"</em>. | This feature might leak information about your device. |
 | Standard | Restart your PC! | Regularly restart your PC to clean up running background processes and free up the memory from sensitive data.
 | Standard | Disable network during setup! | Disable your network interfaces while installing and configuring your operating system. | Make sure the operating system and all applications are securely configured before connectiong to the internet |
-| Standard | Encrypt your drives. | For encrypting drives/volumes I recommend <a href="https://www.veracrypt.fr/en/Home.html"><b>Veracrypt</b>  <img width="30" height="30" src="https://avatars.githubusercontent.com/u/7925881?s=200&v=4"></img></a> | | |
+| Standard | Encrypt your drives. | I recommend <a href="https://www.veracrypt.fr/en/Home.html"><b>Veracrypt</b>  <img width="30" height="30" src="https://avatars.githubusercontent.com/u/7925881?s=200&v=4"></img></a> | | |
 | Standard | Take backups! | Take regular file backups of the operating system drive and other important drives, a system image backup and store them in a safe location. | <b>NOTE:</b> Make sure every kind of backup containing sensitive data or system files is encrypted, no matter where you store it. | 
 | Standard | Uninstall applications you don't need. | Uninstall applications in both <em>Control Panel/Programs and Features</em> and the Settings app. | <b>NOTE:</b> Some apps are only visible in the Settings app. |
 | Standard | Disable all local accounts not being used, including the guest account.
