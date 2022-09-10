@@ -187,13 +187,17 @@ Functions you use could be depedent on some of these services (Not seen in the D
 </table>
 <pre>
 <code>
-	<b>Group Policy: Computer Configuration\Administrative templates\System\Device Guard</b>
+	<b>Group Policy #1: Computer Configuration\Administrative templates\System\Device Guard</b>
 	Enable "Turn On Virtualization Based Security" 	
 	Set options:
         	Secure Boot and DMA protection
         	Enable Virtualization Based Protection of Code Integrity(HVCI) with UEFI Lock.
         	Enable the option "Require UEFI memory attribute tables" to make sure HVCI is only enabled for compatible devices.
         	Enable secure Launch.
+	<b>Group Policy #2: Computer Configuration\Administrative templates\System\Kernel DMA Protection</b>
+		Enable "Enumeration policy for external devices incompatible with Kernel DMA Protection"
+		Set option "Block all".
+	
 </code>
 </pre>
 
