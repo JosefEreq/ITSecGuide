@@ -195,8 +195,8 @@ Functions you use could be depedent on some of these services (Not seen in the D
         	Enable the option "Require UEFI memory attribute tables" to make sure HVCI is only enabled for compatible devices.
         	Enable secure Launch.
 	<b>Group Policy #2: Computer Configuration\Administrative templates\System\Kernel DMA Protection</b>
-		Enable "Enumeration policy for external devices incompatible with Kernel DMA Protection"
-		Set option "Block all".
+	Enable "Enumeration policy for external devices incompatible with Kernel DMA Protection"
+	Set option "Block all".
 	
 </code>
 </pre>
