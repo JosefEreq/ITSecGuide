@@ -208,7 +208,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | Level | Title | Description | Note |
 | :---        |    :----:   |    :----:   |         ---: |
 | Standard | Use a VPN! | Use a VPN when you want to keep your internet connection private, and when you connect to a public Wifi. | <b>NOTE:</b> Use the VPN providers DNS server to make sure the traffic and logs are contained at one provider. <br></br> <b>OpenVPN:</b> Add the parameter <em>"block-outside-dns"</em> to your config file to block lookups to the ISPs DNS server and thus preventing information about your real ISP from leaking. |
-| Standard-<b>Advanced</b> | Standard: Use <a href="https://brave.com/"><b>Brave</b>  <img width="30" height="30" src="https://seeklogo.com/images/B/brave-logo-F5E1D99D9E-seeklogo.com.png"></img></a> <br></br> Advanced: Use <a href="https://www.mozilla.org/en-US/firefox/"><b>Firefox</b>  <img width="30" height="30" src="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png"></img></a> | Brave is easy to setup and provides good built-in security and tracking protection.<br></br> Firefox is generally the most secured and private browser if you spend some time configuring it properly, including extensions. <br></br> | <b>NOTE:</b> See the Firefox sections further below for a guide on how to configure them for best security and privacy. |
+| Standard-<b>Advanced</b> | Use one of these browsers: <br></br> Standard    <a href="https://brave.com/"><b>Brave</b>  <img width="30" height="30" src="https://seeklogo.com/images/B/brave-logo-F5E1D99D9E-seeklogo.com.png"></img></a> <br></br> Advanced    <a href="https://www.mozilla.org/en-US/firefox/"><b>Firefox</b>  <img width="30" height="30" src="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png"></img></a> | Brave is easy to setup and provides good built-in security and tracking protection.<br></br> Firefox is generally the most secured and private browser if you spend some time configuring it properly, including extensions. <br></br> | <b>NOTE:</b> See the Firefox sections further below for a guide on how to configure them for best security and privacy. |
 | <b>Advanced</b> | Encrypt your DNS lookups | Encrypt your DNS lookups when not connected to a VPN tunnel. I recommend using the DnscryptV2 protocol and <a href="https://github.com/DNSCrypt/dnscrypt-proxy"><b>dnscrypt-proxy</b> <img width="30" height="30" src="https://b.thumbs.redditmedia.com/xLIzuCm3dBa7aboYMPFE8YEk96OB17qk4BXo9x6HzVY.png"></img></a> client for Windows, MacOS and routers(Linux based) and <a href="https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351"><b>DNSCloak</b> <img width="30" height="30" src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/0f/8c/91/0f8c9109-4ae6-baf6-4527-009c700dac0c/source/512x512bb.jpg"></img></a> for iOS. | <b>NOTE:</b> Use a DNS server that don't log client lookups and have DNSSEC support enabled. 
 | <b>Advanced</b> | Use a privacy focused search engine. | I recommend  <a href="https://html.duckduckgo.com"><b>DuckDuckGo</b>  <img width="30" height="30" src="https://e7.pngegg.com/pngimages/124/307/png-clipart-duckduckgo-web-search-engine-google-search-anonymity-eyebrows-miscellaneous-logo.png"></img></a> | <b>NOTE:</b> Don't trust all sites in your search results, don't click on random links. |
 
@@ -285,9 +285,8 @@ Functions you use could be depedent on some of these services (Not seen in the D
 
 <br></br>
 <br></br>
-<a name="FirefoxTor"></a>
-# 	Firefox & Tor Browser
-### The configuration below applies to both the Firefox and Tor browser. See sections further below for configurations specific to each browser.
+<a name="Firefox"></a>
+# 	Firefox
 ##### Some security measures require you to install an extension while other require changes in the settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
 
 | Level | Title | Description | Note | 
@@ -365,16 +364,6 @@ dom.ipc.tabs.createKillHardCrashReports = <em>"false"</em>
 | Level | Title | Description | Note | 
 | :---        |  :----:   |    :----:   |         ---: |
 | <b>Advanced</b> | Disable 3rd party cookies. | <b>Config editor:</b> network.cookie.cookieBehavior = <em>"1"</em> | To prevent sites on different domains from reading share each others cookies. |
-
-<br></br>
-<br></br>
-<a name="Tor"></a>
-# 	Tor Browser (Specific)
-##### Some security measures require you to install an extension while other require changes in the settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
-
-| Level | Title | Description | Note | 
-| :---        |  :----:   |    :----:   |         ---: |
-| <b>Advanced</b> | Disable all cookies. | <b>Config editor:</b> network.cookie.cookieBehavior = <em>"2"</em> | Don't keep any persistent cookies in the Tor browser sessions. |
 
 <br></br>
 <br></br>
