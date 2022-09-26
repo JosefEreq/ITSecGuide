@@ -44,8 +44,6 @@ The provided guidelines and actions are intended for <em>private cyber security<
 6. [iOS](#soi)
 7. [Network and Router](#Network)
 8. [Firefox](#Firefox)
-9. [Firefox (Specific)](#Firefox)
-10. [Tor Browser (Specific)](#Tor)
 11. [Thunderbird Email](#Thunderbird)
 
 <br></br>
