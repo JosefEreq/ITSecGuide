@@ -13,7 +13,7 @@ This document provides guidelines and recommendation for hardening the cyber sec
 * #### 		Email / Chat
 * ####	 	Windows 10 / 11
 * ####		iOS
-* ####		Firefox, Tor Browser and Thunderbird
+* ####		Firefox and Thunderbird
 * #### 		Network and Router
 
  ##### 		<em>(Coming soon) MacOS</em>
@@ -43,7 +43,7 @@ The provided guidelines and actions are intended for <em>private cyber security<
 5. [Email and Chat](#mail)
 6. [iOS](#soi)
 7. [Network and Router](#Network)
-8. [Firefox & Tor Browser](#FirefoxTor)
+8. [Firefox](#Firefox)
 9. [Firefox (Specific)](#Firefox)
 10. [Tor Browser (Specific)](#Tor)
 11. [Thunderbird Email](#Thunderbird)
