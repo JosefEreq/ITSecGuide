@@ -291,6 +291,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 
 | Level | Title | Description | Note | 
 | :---        |  :----:   |    :----:   |         ---: |
+| <b>Advanced</b> | Disable 3rd party cookies. | <b>Config editor:</b> network.cookie.cookieBehavior = <em>"1"</em> | To prevent sites on different domains from reading share each others cookies. |
 | Standard | Send "Do not track". | <b>Settings:</b> Enable <em>"Do not track"</em>. | Not all sites follows this request/header. But it should still be enabled. | 
 | Standard | Disable experimental feature. | <b>Config editor:</b> messaging-system.rsexperimentloader.enabled = <em>"false"</em> | You should avoid experimental/beta features since they're not neccesarily secure enough until they become generally available. |    
 | Standard | Prevent fingerprinting | <b>Extension:</b> <a href="https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/"><b>CanvasBlocker</b></a> <b>AND</b> <b>Config editor:</b> privacy.resistFingerprinting = <em>"true"</em>, privacy.trackingprotection.fingerprinting.enabled = <em>"true"</em> |
@@ -355,15 +356,6 @@ dom.ipc.plugins.flash.subprocess.crashreporter.enabled = <em>"false"</em>
 dom.ipc.tabs.createKillHardCrashReports = <em>"false"</em>
 </code>
 </pre>
-
-<br></br>
-<br></br>
-<a name="Firefox"></a>
-# 	Firefox (Specific)
-##### Some security measures require you to install an extension while other require changes in the settings or config editor. The config editor can be accessed by entering <em>about:config</em> into the URL/search bar.
-| Level | Title | Description | Note | 
-| :---        |  :----:   |    :----:   |         ---: |
-| <b>Advanced</b> | Disable 3rd party cookies. | <b>Config editor:</b> network.cookie.cookieBehavior = <em>"1"</em> | To prevent sites on different domains from reading share each others cookies. |
 
 <br></br>
 <br></br>
