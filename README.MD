@@ -43,13 +43,18 @@ The provided guidelines and actions are intended for <em>private cyber security<
 5. [Email and Chat](#mail)
 6. [iOS](#soi)
 7. [Network and Router](#Network)
-8. [Firefox](#Firefox)
+8. [Firefox Browser](#Firefox)
 11. [Thunderbird Email](#Thunderbird)
 
+
+
+<br></br>
+<hr></hr>
 <br></br>
 <br></br>
 <br></br>
 <br></br>
+
 <a name="Providers"></a>
 # 	Internet, VPN and Email provider
 Consider the following when choosing a Internet, VPN or Email provider;
