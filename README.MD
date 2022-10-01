@@ -83,7 +83,6 @@ Consider the following when choosing a Internet, VPN or Email provider;
 # 	Windows 10 / 11
 | Level | Title | Description | Note | 
 | :---         |   :----:   |   :----:   |         ---: |
-| Standard | Avoid signing in with or connecting a online Microsoft account. | Your identity might leak through local services communicating online if they can be tied to a online account. | |
 | Standard | Set a secure password on your local computer user. | Set a long and complex password that's hard to guess.
 | Standard | Configure in-app security and privacy settings. | Go trough each applications privacy and security settings first thing you do after installing it. | There's often a lot of of privacy settings. |
 | Standard | Auto-lock on inactivity. | Set your computer to lock automatically after being inactive. |  |
@@ -96,7 +95,7 @@ Consider the following when choosing a Internet, VPN or Email provider;
 | Standard | Uninstall applications you don't need. | Uninstall applications in both <em>Control Panel/Programs and Features</em> and the Settings app. | <b>NOTE:</b> Some apps are only visible in the Settings app. |
 | Standard | Disable <b>extra</b> local accounts | Disable all local accounts not being used, especially the guest account.
 | Standard | Fully activate UAC. | Enable User Account Control in <em>Control Panel/User Accounts/Change User Account Control settings</em> Drag the slider to the higest level and click OK. | UAC will prompt for verification before an application elevates itself to admin.
-| Standard | Install a endpoint protection solution <b>if neccesary</b>. | You may want to install a EDR solution, depending on how securely the computer is configured and used, since Windows is full of security vulnerabilities. Choose a modern EDR solution that looks for unusual executions and behaviors | <b>NOTE #1:</b> Select a EDR provider you trust. But remember that the they could potentially read all files on your PC. <br></br> <b>NOTE #2:</b> Avoid installing an EDR solution, for privacy concerns, if your Windows operating system is locked down with all the recommendations in this guide applied and you only run software and documents you verified. |
+| Standard | Install a endpoint protection solution <b>if neccesary</b>. | You may want to install a EDR solution, depending on how securely the computer is configured and used, since Windows is full of security vulnerabilities. Choose a modern EDR solution that looks for unusual executions and behaviors | <b>NOTE #1:</b> Select a EDR provider you trust. But remember that the they could potentially read all files on your PC. <br></br> <b>NOTE #2:</b> Avoid installing an EDR solution, for privacy concerns, if your Windows operating system is locked down with all the recommendations in this guide applied and you only run verified software and documents. |
 | Standard | Disable logging in your torrent and VPN client! | Don't leave traces of downloads in case you're subject to a legal investigation.
 | Standard | Disable Autoplay features. | Disable AutoPlay and in <em>Windows Settings/Bluetooth & Devices/AutoPlay</em>. | This will prevent plugged in devices from auto-starting its local media and binaries.
 | Standard | BIOS password | Set a BIOS password | |
