@@ -246,7 +246,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | Standard | Set a SIM PIN. | Make sure a PIN code is set on your SIM card.
 | Standard | Disable notification previews when locked. | <b>Set</b> Show Previews to <em>"When Unlocked"</em>. | You don't want others to see your notification content if your phone gets stolen. |
 | Standard | Disable Siri. | <b>Settings:</b> Disable Siri from the Siri system settings. | Siri might leak sensitive data, since not all data is processed on-device.
-| Standard | Disable Airdrop. | Disable Airdrop in system settings when not used. |
+| Standard | Disable Airdrop. | Disable Airdrop in system settings when not in use. |
 | Standard | Disable CarPlay while locked. | <b>Disable</b> <em>"Allow CarPlay While Locked"</em> in CarPlay system settings. |
 | Standard | Require "eye contact" to use FaceID. | <b>Enable</b> <em>"Require Attention for Face ID"</em> in Accessibility system settings. |
 | Standard | Disallow access to features when locked. | <b>Disable</b> everything in <em>"Allow Access when locked"</em> in Face ID & Passcode system settings. |
@@ -275,7 +275,7 @@ Functions you use could be depedent on some of these services (Not seen in the D
 | Standard | Disable WPS PIN! | Disable WPS PIN on your routers. | WPS is a protocol for easy Wifi setup, and WPS PIN is one of its method that has a serious security vulnerability where the PIN can be extracted by a malicious actor. |  |
 | Standard | Don't expose any devices! | Don't put any computers or other devices in front of the router/firewall. Unless it's intended for the public. | Hackers countinesly scan the internet for exposed services and target them.
 | Standard | Don't expose router management interfaces! | Keep the router management interfaces, no matter what network protocol, accessible from the internal LAN only. | |
-| Standard | Disable unnecessary features on routers/APs! | Disable all your router and access point features you don't need, since they just increase the attack vector. | Extra important on a router since it's exposed on the internet and many typical routers come with bloatware. <br></br><b>NOTE #1:</b> This also applies to security features that risk leaking information to its provider, such as HTTP protections that scan all URLs and uploads them to a 3rd party. |
+| Standard | Disable unnecessary features on routers/APs! | Disable all your router and access point features you don't need, since they just increase the attack vector. | Extra important on a router since it's exposed on the internet and many typical routers come with bloatware. <br></br><b>NOTE #1:</b> Also check security features, many leak data to providers, such as web protections that upload browsing data to a 3rd party. |
 | Standard | Disable logging of sensitive data on router! | Some routers log sensitive data, such as web/http traffic and DNS lookups. Disable all these.
 | <b>Advanced</b> | Disable CTF/NAT acceleration. | Disable Cut-Through Forwarding/NAT acceleration on your routers. | These features allows for traffic to bypass internal firewall scanning and other potential security features. |
 | <b>Advanced</b> | Disable UPNP. | Disable UPNP on your routers. | UPNP could allow a potentially infected device on your network to open up network ports allowing malicious traffic from the internet.|
